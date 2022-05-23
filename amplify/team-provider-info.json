@@ -1,0 +1,46 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-nostream-dev-203204-authRole",
+      "UnauthRoleArn": "arn:aws:iam::250810612759:role/amplify-nostream-dev-203204-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::250810612759:role/amplify-nostream-dev-203204-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-nostream-dev-203204-deployment",
+      "UnauthRoleName": "amplify-nostream-dev-203204-unauthRole",
+      "StackName": "amplify-nostream-dev-203204",
+      "StackId": "arn:aws:cloudformation:us-east-1:250810612759:stack/amplify-nostream-dev-203204/830b0690-b8fc-11ec-a16f-0ef75942c89f",
+      "AmplifyAppId": "d10wrlqbtl7bye",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-nostream-dev-203204-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "nostreamf77026bf": {},
+        "true": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d10wrlqbtl7bye",
+          "type": "manual"
+        }
+      },
+      "function": {
+        "todosLambda": {
+          "deploymentBucketName": "amplify-nostream-dev-203204-deployment",
+          "s3Key": "amplify-builds/todosLambda-52775967595575615066-build.zip"
+        },
+        "noSteam": {
+          "deploymentBucketName": "amplify-nostream-dev-203204-deployment",
+          "s3Key": "amplify-builds/noSteam-2f7951635235677a4763-build.zip"
+        },
+        "noSteamCurd": {
+          "deploymentBucketName": "amplify-nostream-dev-203204-deployment",
+          "s3Key": "amplify-builds/noSteamCurd-746b3065377631345076-build.zip"
+        },
+        "noSteamLambda": {
+          "deploymentBucketName": "amplify-nostream-dev-203204-deployment",
+          "s3Key": "amplify-builds/noSteamLambda-71334830775644704964-build.zip"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "AppSyncApiName": "nostream",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthModeLastUpdated": "2022-05-07T11:15:37.390Z"
+}

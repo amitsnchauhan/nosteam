@@ -1,0 +1,12 @@
+{
+  "resourceName": "ContactUs",
+  "tableName": "ContactUs",
+  "partitionKey": {
+    "fieldName": "firstName",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": [
+    "todosLambda"
+  ]
+}

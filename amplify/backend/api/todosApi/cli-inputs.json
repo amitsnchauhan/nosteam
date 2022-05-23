@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "paths": {
+    "/items": {
+      "name": "/items",
+      "lambdaFunction": "todosLambda",
+      "permissions": {
+        "setting": "protected",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ],
+        "guest": [
+          "read"
+        ]
+      }
+    },
+    "/nosteam": {
+      "name": "/nosteam",
+      "lambdaFunction": "noSteam",
+      "permissions": {
+        "setting": "protected",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ],
+        "guest": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    },
+    "/nosteamcurd": {
+      "name": "/nosteamcurd",
+      "lambdaFunction": "noSteamCurd",
+      "permissions": {
+        "setting": "protected",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ],
+        "guest": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    },
+    "/nosteamapi": {
+      "name": "/nosteamapi",
+      "lambdaFunction": "noSteamLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
